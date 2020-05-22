@@ -30,6 +30,8 @@ cd LCD-show/
 sudo cp ./usr/tft9341-overlay.dtb /boot/overlays/tft9341.dtbo
 ```
 
+Update the boot/config.txt file
+
 ```bash
 sudo nano /boot/config.txt
 ```
