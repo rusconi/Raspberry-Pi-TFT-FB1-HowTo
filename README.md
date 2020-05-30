@@ -42,9 +42,13 @@ add these lines at the end.
 # turns spi on
 dtparam=spi=on
 # loads tft module for /dev/fb1
-dtoverlay=tft9341, rotate=90
+# 
+#dtoverlay=tft9341:rotate=270
+dtoverlay=tft9341:rotate=270
 # sets tft backlight pin on
-gpio=13=op,dh
+#gpio=13=op,dh
+# or off at startup
+gpio=13=op,dl
 ```
 
 3. Reboot and test
@@ -76,8 +80,6 @@ You can then;
     ```
 
 
-<div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
-</div>
+
 
 
