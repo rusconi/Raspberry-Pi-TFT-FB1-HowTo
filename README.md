@@ -1,5 +1,7 @@
 ## Display framebuffer /dev/fb1 on the TFT.
 
+## Works for me. Use at your own risk.
+
 Works with 2.8" 320*240 ILI9341 TFT
 
 Tested on v1.2 of this display:
