@@ -48,9 +48,9 @@ dtparam=spi=on
 #dtoverlay=tft9341:rotate=270
 dtoverlay=tft9341:rotate=270
 # sets tft backlight pin on
-#gpio=13=op,dh
+gpio=13=op,dh
 # or off at startup
-gpio=13=op,dl
+#gpio=13=op,dl
 ```
 
 3. Reboot and test
