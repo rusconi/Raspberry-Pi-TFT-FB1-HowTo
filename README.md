@@ -33,9 +33,13 @@ sudo cp ./usr/tft9341-overlay.dtb /boot/overlays/tft9341.dtbo
 ```
 
 Update the boot/config.txt file
-
+Depending on your mood version
 ```bash
 sudo nano /boot/config.txt
+```
+or
+```bash
+sudo nano /boot/firmware/config.txt
 ```
 
 add these lines at the end.
