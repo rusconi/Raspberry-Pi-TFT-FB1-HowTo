@@ -29,7 +29,7 @@ SSH into the RPI
 ```bash
 git clone https://github.com/goodtft/LCD-show.git
 cd LCD-show/
-sudo cp ./usr/tft9341-overlay.dtb /boot/overlays/tft9341.dtbo
+sudo cp ./usr/tft9341-overlay.dtb /boot/firmware/overlays/tft9341.dtbo
 ```
 
 Update the boot/config.txt file
